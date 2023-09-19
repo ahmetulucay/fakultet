@@ -13,7 +13,7 @@ public class Fakultet {
         int multip=1;
         if(n>=1){
             for (int i = 1; i <n+1 ; i++) {
-                multip*=i;
+                  multip*=i;
             }
         }
         return multip;
