@@ -25,7 +25,7 @@ public class Fakultet {
         if(n==0 || n==1) return 1;
 
         else {
-            return n*fakultetRec(n-1);
+            return n*fakultet(n-1);
         }
 
     }
